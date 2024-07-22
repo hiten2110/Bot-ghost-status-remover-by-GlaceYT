@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Playing play.greenmc.fun","discord.gg/greenmc","Playing greenmc.in"];
 
 
 let currentIndex = 0;
