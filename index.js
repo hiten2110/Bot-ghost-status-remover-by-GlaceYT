@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Playing play.greenmc.fun","discord.gg/greenmc","Playing greenmc.in"];
+const statusMessages = ["Playing greenmc.in"];
 
 
 let currentIndex = 0;
@@ -73,7 +73,7 @@ function updateStatusAndSendMessages() {
   const nextStatus = statusMessages[(currentIndex + 1) % statusMessages.length];
 
   client.user.setPresence({
-    activities: [{ name: currentStatus, type: ActivityType.Custom}],
+    activities: [{ name: currentStatus, type: ActivityType.Playing}],
     status: 'dnd',
   });
 
