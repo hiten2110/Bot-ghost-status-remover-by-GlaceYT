@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Greenmc.in"];
+const statusMessages = ["Minebeach.fun"];
 
 
 let currentIndex = 0;
